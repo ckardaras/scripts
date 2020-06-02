@@ -19,7 +19,6 @@ chmod +x coursier
     sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
     -o almond -f
 ./almond --install -f
-conda clean -tipsy
 cd ~/Desktop
 echo '{
  "cells": [
